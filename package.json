@@ -1,0 +1,15 @@
+{
+  "name": "cypto-screener",
+  "version": "1.0.0",
+  "description": "Screens all Binance listed coins and generates a tradingview watchlist",
+  "main": "index.js",
+  "scripts": {
+    "cci-rollup": "node index.js",
+    "clean": "rm *.txt"
+  },
+  "author": "Alex Pantzialas",
+  "license": "ISC",
+  "dependencies": {
+    "binance-api-node": "^0.8.5"
+  }
+}
